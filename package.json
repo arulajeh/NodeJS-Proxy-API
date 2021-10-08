@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-proxy-api",
+  "version": "1.0.0",
+  "description": "Simple way to proxy your api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arulajeh/NodeJS-Proxy-API.git"
+  },
+  "author": "ArulAjeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arulajeh/NodeJS-Proxy-API/issues"
+  },
+  "homepage": "https://github.com/arulajeh/NodeJS-Proxy-API#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "morgan": "^1.10.0"
+  }
+}
